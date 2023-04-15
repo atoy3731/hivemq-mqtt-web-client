@@ -3,7 +3,7 @@ name: Docker
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   IMAGE_NAME: atoy3731/hivemq-web-client
