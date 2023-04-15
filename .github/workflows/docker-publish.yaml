@@ -36,9 +36,7 @@ jobs:
       - name: Prepare
         id: prep
         run: |
-          VERSION=$(cat VERSION)
-
-          TAGS="${IMAGE_NAME}:${VERSION},${IMAGE_NAME}:latest"
+          TAGS="${IMAGE_NAME}:latest"
 
           # Set output parameters.
           echo ::set-output name=tags::${TAGS}
