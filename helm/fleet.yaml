@@ -1,0 +1,4 @@
+defaultNamespace: hivemq-web-client
+
+helm:
+  chart: ./chart
